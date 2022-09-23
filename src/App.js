@@ -1,24 +1,15 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+//import Map from 'react-map-gl';
+import MapBox from './MapBox';
 
 function App() {
+
+  const token = 'pk.eyJ1IjoiY29uZ25jIiwiYSI6ImNsNGN1MmJjeTAwcDczam1pOTI5M213YmIifQ.ppPdHqQJIfcYmrJpuBvXsw';
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div>
+      <MapBox/>
+    // </div>
   );
 }
 
